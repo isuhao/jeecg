@@ -465,7 +465,6 @@ fa fa-times
         <tr>
             <td class="value"><input type="radio" value="sliding" name="indexStyle"  /><span>Sliding云桌面</span></td>
         </tr>
-        <!-- update-end--Author:longjb  Date:2013-03-15 for:新增首页风格  -->
         <tr>
             <td class="value"><input type="radio" value="ace" name="indexStyle"  /><span>ACE平面风格</span></td>
         </tr>
@@ -1018,15 +1017,11 @@ fa fa-times
         url: "loginController.do?primaryMenuDiy",
         async:false,
         success: function (data) {
-
 //            $(".shortcut").html(data);
             $(".shortcut").html(data.replace(/\"/g,""));
-
         }
     });
-
     $(".shortcut li").eq(0).trigger("click");
-
     $("#nav").show();
     //var tabs = $( "#tabs" ).tabs();
 

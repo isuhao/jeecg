@@ -64,12 +64,10 @@ function initData() {
 			getDataHanlder);
 	$.get("cgFormIndexController.do?getIndexList&id=" + $("#id").val(),
 			getDataHanlderIndex);
-
 	$('.t_table').height($(window).height()-300);
 	$(window).resize(function(){
 		$('.t_table').height($(window).height()-300);
 	});
-
 	
 }
 
@@ -84,10 +82,8 @@ function addTableHead() {
 	}
 }
 // 兼容不同浏览器获取iframe 内容
-
 //主要情况是ie11下的版本是火狐的标识倒是出差错
 function getIframeDocument(id){
-
 	try {
 		if (window.frames["iframe_" + id].contentDocument) {
 			return window.frames["iframe_" + id].contentDocument;
@@ -96,9 +92,7 @@ function getIframeDocument(id){
 	} catch (e) {
 	}
 	return document.getElementById("iframe_" + id).contentDocument;
-
 }
-
 
 /**
  * 获取数据的回调

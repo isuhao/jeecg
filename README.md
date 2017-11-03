@@ -1,7 +1,7 @@
 JEECG 微云快速开发平台
 ===============
 
-当前最新版本： 3.6.4（发布日期：20160701）
+当前最新版本： 3.6.5（发布日期：20160718）
 
 前言：
 -----------------------------------
@@ -39,11 +39,6 @@ JEECG快速开发平台，可以应用在任何J2EE项目的开发中，尤其适合企业信息管理系统（MIS
 * 15.在线配置报表（无需编码，通过在线配置方式，实现曲线图，柱状图，数据等报表）
 * 16.简易Excel导入导出，支持单表导出和一对多表模式导出，生成的代码自带导入导出功能
 * 17.自定义表单，支持用户自定义表单布局，支持单表，一对多表单、支持select、radio、checkbox、textarea、date、popup、列表、宏等控件
-
-JEECG 适用范围
------------------------------------
-JEECG智能开发平台，可以应用在任何J2EE项目的开发中，尤其适合企业信息管理系统（MIS）、内部办公系统（OA）、企业资源计划系统（ERP）
-、客户关系管理系统（CRM）等，其半智能手工Merge的开发方式，可以显著提高开发效率60%以上，极大降低开发成本。
 
 
 JEECG 功能特点
@@ -85,14 +80,16 @@ JEECG 功能特点
 
 技术文档
 -----------------------------------
-* [JEECG 开发环境搭建入门必读](http://blog.csdn.net/zhangdaiscott/article/details/50915206)
+* [JEECG 开发环境搭建入门](http://blog.csdn.net/zhangdaiscott/article/details/50915206)
 * [JEECG 开发入门视频](http://www.jeecg.org/forum.php?mod=viewthread&tid=197&extra=page%3D1)
-* [JEECG 入门常见问题必读](http://www.jeecg.org/forum.php?mod=viewthread&tid=1830&extra=page%3D1)
-* [在线演示](http://demo.jeecg.org)
-* [JEECG云应用平台中心](http://yun.jeecg.org)
-
+* [JEECG 入门常见问题](http://www.jeecg.org/forum.php?mod=viewthread&tid=1830&extra=page%3D1)
+* 在线演示地址：[http://demo.jeecg.org](http://demo.jeecg.org)
+* JEECG 云平台插件下载中心：[http://yun.jeecg.org](http://yun.jeecg.org)
+* [JEECG更多版本下载地址](http://www.jeecg.org/forum.php?mod=viewthread&tid=1229&extra=page%3D1)
+* 不熟悉maven的同学，直接下载 => [myeclipse非maven版本](http://git.oschina.net/jeecg/jeecg-no_maven)
+* Maven依赖下载慢解决方案 => [享受一下mvn时飞的感觉](http://www.jeecg.org/forum.php?mod=viewthread&tid=3949)
 * maven依赖下载有问题的，可以直接下载官方提供的 => [JEECG本地Maven仓库](http://git.oschina.net/jeecg/jeecg-local-maven)
-* 不熟悉maven的同学，直接用 => [myeclipse非maven版本](http://git.oschina.net/jeecg/jeecg-no_maven)
+
 
 
 JEECG云插件中心
@@ -106,7 +103,7 @@ JEECG云插件中心
 技术交流
 -----------------------------------
 * 	作者：[张代浩](http://blog.csdn.net/zhangdaiscott)</br>
-* 	QQ交流群： 176031980、106838471（满）、106259349（满）</br>
+* 	QQ交流群： ④176031980、②106838471(满)、①106259349(满)、③289782002(满)</br>
 
 
 社区荣誉

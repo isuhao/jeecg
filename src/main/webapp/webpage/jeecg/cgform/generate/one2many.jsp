@@ -97,9 +97,11 @@ function browseFolder(path) {
 			<td align="right"><label class="Validform_label"> 页面风格: </label></td>
 			<td class="value">
 			<select id="jspMode" name="jspMode">
-				<option value="03">Table风格(form)</option>
-				<option value="06">bootstrap风格(form)</option>
-			</select></td>
+		     		<c:forEach items="${jspModeList }" var="style">
+			     	 <option value="${style.code }" >${style.desc }</option>
+			     	</c:forEach>
+		     </select>
+		     </td>
 		</tr>
 	</table>
 	<table>
@@ -122,7 +124,7 @@ function browseFolder(path) {
 				<td class="value" colspan="3"><input class="inputxt" id="subTabParamIn[${columIndex.index}].ftlDescription" name="subTabParamIn[${columIndex.index}].ftlDescription" datatype="*"> <span
 					class="Validform_checktip"></span></td>
 
-				<td align="right">子包名((小写)):</td>
+				<td align="right">子包名(小写):</td>
 				<td class="value" colspan="3"><input class="inputxt" id="subTabParamIn[${columIndex.index}].entityPackage" name="subTabParamIn[${columIndex.index}].entityPackage" datatype="*"> <span
 					class="Validform_checktip"></span></td>
 

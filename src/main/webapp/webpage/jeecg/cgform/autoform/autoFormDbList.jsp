@@ -9,29 +9,21 @@
    <t:dgCol title="common.createby"  field="createBy"  hidden="true"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="common.updateName"  field="updateName"  hidden="true"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="common.updateBy"  field="updateBy"  hidden="true"  queryMode="single"  width="120"></t:dgCol>
-   <!--update-end--Author:luobaoli  Date:20150617 for：调整国际化编码-->
    <t:dgCol title="common.depart.code"  field="sysOrgCode"  hidden="true"  queryMode="single" dictionary="t_s_depart,id,departname"  width="120"></t:dgCol>
-   <!--update-end--Author:luobaoli  Date:20150617 for：调整国际化编码-->
    <t:dgCol title="common.company.code"  field="sysCompanyCode"  hidden="true"  queryMode="single" dictionary="t_s_depart,id,departname"  width="120"></t:dgCol>
    <t:dgCol title="common.createDate"  field="createDate" formatter="yyyy-MM-dd" hidden="true"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="common.updateDate"  field="updateDate" formatter="yyyy-MM-dd" hidden="true"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="form.db.name"  field="dbName"    queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="form.db.chname"  field="dbChName"    queryMode="single"  width="120"></t:dgCol>
-   <!--update-end--Author:luobaoli  Date:20150701 for：显示中文数据源类型-->
    <t:dgCol title="form.db.type"  field="dbType"    queryMode="single" dictionary="formDbType" width="120"></t:dgCol>
-   <!--update-end--Author:luobaoli  Date:20150701 for：显示中文数据源类型-->
    <t:dgCol title="form.db.tablename"  field="dbTableName"    queryMode="single"  width="120"></t:dgCol>
-   <!--add-start--Author: jg_huangxg  Date:20150723 for：新增填报数据源和填报数据库表显示-->
    <t:dgCol title="form.tb.db.key"  field="tbDbKey"    queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="form.tb.db.table.name"  field="tbDbTableName"    queryMode="single"  width="120"></t:dgCol>
-   <!--add-end--Author: jg_huangxg  Date:20150723 for：新增填报数据源和填报数据库表显示-->
    <t:dgCol title="form.db.synsql"  field="dbDynSql"    queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="common.dynamic.dbsource"  field="dbKey"   hidden="true"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="common.operation" field="opt" width="100"></t:dgCol>
    <t:dgDelOpt title="common.delete" url="autoFormDbController.do?doDel&id={id}" />
-   <!--add-start--Author:luobaoli  Date:20150626 for：新增表单数据源预览操作-->
    <t:dgFunOpt title="form.db.preview" funname="goView(id)"></t:dgFunOpt>
-   <!--add-end--Author:luobaoli  Date:20150626 for：新增表单数据源预览操作-->
    <%-- <t:dgToolBar title="common.add" icon="icon-add" url="autoFormDbController.do?goAdd" funname="add" height="600"></t:dgToolBar> --%>
    <t:dgToolBar title="common.edit" icon="icon-edit" url="autoFormDbController.do?goUpdate" funname="update" height="600"></t:dgToolBar>
    <t:dgToolBar title="common.query" icon="icon-search" url="autoFormDbController.do?goUpdate" funname="detail"></t:dgToolBar>
